@@ -1,4 +1,4 @@
-<a href="https://git.io/typing-svg" align = center><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&random=false&width=435&lines=%D0%A7%D0%B0%D1%82-%D0%B1%D0%BE%D1%82+%D0%B4%D0%BB%D1%8F+%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80%D0%B0+%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D1%8B%D1%85+%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BE%D0%B2" alt="Typing SVG" /></a>
+<p align = center> <a href="https://git.io/typing-svg" align = center><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&random=false&width=435&lines=%D0%A7%D0%B0%D1%82-%D0%B1%D0%BE%D1%82+%D0%B4%D0%BB%D1%8F+%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80%D0%B0+%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D1%8B%D1%85+%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BE%D0%B2" alt="Typing SVG" /></a> </p>
 <div align="justify">Чат-бот, разработанный в рамках кейс-чемпионата от Совкомбанка, предназначен для упрощения процесса осмотра страхуемого имущества клиентами. Благодаря использованию технологий компьютерного зрения, чат-бот позволяет клиенту без специальных экспертных навыков осуществить осмотр имущества и получить обратную связь от сотрудника страховой компании. Логика работы включает в себя процессы регистрации, авторизации и администрироавния.
 Решение включает в себя функции распознавания наличия автомобиля, лобового стекла и читаемого VIN номера на предоставленных фотографиях. В разработке продукта принимали участие: <a href = "https://github.com/mishantique"> Собственно я</a>, <a href = "https://github.com/MrShaller"> Никита Недобежкин</a>, <a href = "https://github.com/ponyotyan"> Анастасия Ефимова</a>.</div>
 
@@ -36,7 +36,7 @@
     - [x] Возможность связаться с клиентом
 
 
-### Технологии
+## Технологии
 
 * ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 * ![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
@@ -55,46 +55,52 @@
 └── project
     ├── data
     │   ├── databases.py
-    |   ├── logo.jpg
+    │   ├── logo.jpg
     │   ├── own_token.py
-    |   └── states.py
+    │   └── states.py
     ├── handlers
-    │   ├── admin *.py 
-    |   ├── heicjpg.py
-    │   ├── order *.py
-    |   ├── status *.py
-    |   ├── registration *.py
-    |   ├── authorization *.py
-    |   ├── history *.py
-    |   ├── bot_messages *.py
-    |   ├── user_commands *.py
+    │   ├── admin.py 
+    │   ├── heicjpg.py
+    │   ├── order.py
+    │   ├── order_auto.py
+    │   ├── order_house.py
+    │   ├── orders_insurer.py
+    │   ├── status.py
+    │   ├── status_auto.py
+    │   ├── status_house.py
+    │   ├── registration.py
+    │   ├── authorization.py
+    │   ├── authorization_insurer.py
+    │   ├── history.py
+    │   ├── bot_messages.py
+    │   ├── user_commands.py
     ├── img
     ├── keyboards
     │   ├── fabrics.py
-    |   ├── inline.py
+    │   ├── inline.py
     │   ├── reply.py
     ├── model
     │   ├── IMAGIN
-    |   |   ├── CAR.jpg
-    |   |   ├── CAR2.jpg
-    |   |   ├── CAR_error.jpg
-    |   |   ├── LOB.jpg
-    |   |   ├── LOB_error.jpg
-    |   |   ├── Real_error.jpg
-    |   |   ├── VIN.jpg
-    |   |   ├── VIN_error.jpg
-    |   ├── modules
-    |   |   ├── Car_check.py
-    |   |   ├── realcheck.py
-    |   |   ├── Shapecheck.py
-    |   |   ├── VIN.py
-    |   |   ├── WindShield.py
+    │   │   ├── CAR.jpg
+    │   │   ├── CAR2.jpg
+    │   │   ├── CAR_error.jpg
+    │   │   ├── LOB.jpg
+    │   │   ├── LOB_error.jpg
+    │   │   ├── Real_error.jpg
+    │   │   ├── VIN.jpg
+    │   │   ├── VIN_error.jpg
+    │   ├── modules
+    │   │   ├── Car_check.py
+    │   │   ├── realcheck.py
+    │   │   ├── Shapecheck.py
+    │   │   ├── VIN.py
+    │   │   ├── WindShield.py
     │   ├── veh_detec
-    |   |   ├── Auto-libs.txt
-    |   |   ├── Auto-libs.bat
-    |   |   ├── Readme.txt
-    |   |   ├── requirements.txt
-    |   |   ├── zapysk.py
+    │   │   ├── Auto-libs.txt
+    │   │   ├── Auto-libs.bat
+    │   │   ├── Readme.txt
+    │   │   ├── requirements.txt
+    │   │   ├── zapysk.py
     ├── pictures
     │   ├── contains photo-samples to send to user
     ├── QR
@@ -107,6 +113,20 @@
     │   ├── README.md
     │   ├── requirements.txt
 ```
+## 📦 Для быстрого старта
+
+|    |   Feature         | Description |
+|----|-------------------|---------------------------------------------------------------|
+| 📔 | **data**  | Директория для работы с базой данных и формированием папок с заявками от пользователей, а также актов осмотра, направленных сотрудником компании |
+| 📔 | **data/States.py**  | Набор классов, используемых в машине состояний. Классы позволяют организовать поведение чат-бота в зависимости от текущего "состояния" диалога. |
+| 📄 | **handlers/order_.py**  | Набор асинхронных обработчиков, направленных на формирование новой заявки в зависимости от выбранного объекта страхования |
+| 📄 | **handlers/orders_insurer.py** | Обработка команд от пользователя, авторизовавшегося как сотрудник страховой компании |
+| 📄 | **handlers/status.py**  | Обращение к базе данных с целью формирования отклика на запрос о состоянии поданных заявок |
+| 🖼️ | **Model/IMAGIN**    | Образцовые фотографии для легит-чека работы модели |
+| 🖼️ | **pictures**       | Директория, содержащая набор файлов, отправляемых пользователю |
+
+
+
 
 ## 🚀 Установка и запуск
 Для запуска бота необходимо выполнить следующие шаги:
@@ -196,23 +216,24 @@ class VIN:
         return vin_numbers
 
 ```
-<!-- USAGE EXAMPLES -->
-## Примеры использования
-После регистрации и авторизации пользователи могут отправлять фотографии для осмотра через чат-бота. Бот автоматически определит наличие автомобиля, лобового стекла и VIN номера. 
-После окончания формирования заявка автоматически отправляется сотруднику-страховщику на рассмотрение.
-### Интерфейс
-![Alt text](/serivce.png?raw=true "Optional Title")
-
 
 ### Проверка разрешения, извлечение метаданных, проверка VIN номера
 
-![Alt text](/serivce.png?raw=true "Optional Title")
+![Alt text](/VIN.png?raw=true "Optional Title")
 
 ``` Python
 Фото хорошего разрешения
 Metadata: {'imageTakenTime': '2023:10:15 07:25:14', 'geolocation_lat: 59.8720555', 'geolocation_lng': 30.367008}
 ['OPEL 0482001711670094 WOLOAHL6785065544 71870 K9 3145 170955 K9 220955 20R XXL0 8']
 ```
+
+<!-- USAGE EXAMPLES -->
+## Примеры использования
+После регистрации и авторизации пользователи могут отправлять фотографии для осмотра через чат-бота. Бот автоматически определит наличие автомобиля, лобового стекла и VIN номера. 
+После окончания формирования заявка автоматически отправляется сотруднику-страховщику на рассмотрение.
+### Интерфейс
+![Alt text](/serivce.png?raw=true "Optional Title")
+С видеодемонстрацией функционала можно ознакомиться по <a href = "https://drive.google.com/drive/folders/1kl-88dxnAc4BYvnG4dUmA7bv-tbHWJF9?usp=sharing"> ссылке </href>
 
 ## Как внести вклад
 <ul>
