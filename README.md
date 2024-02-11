@@ -248,9 +248,8 @@ Metadata: {'imageTakenTime': '2023:10:15 07:25:14', 'geolocation_lat: 59.8720555
 
 
 Telegram: <ul> <li> [@mishantique](https://t.me/mishantique) </li>
-<li>@ponyotyan </li>
-
-<li>@ShallerMau </li>
+<li>[@ponyotyan](https://t.me/ponyotyan) </li>
+<li>[@ShallerMau](https://t.me/ShallerMau) </li>
 </ul>
 
 
