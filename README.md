@@ -247,11 +247,9 @@ Metadata: {'imageTakenTime': '2023:10:15 07:25:14', 'geolocation_lat: 59.8720555
 Если у вас есть вопросы или предложения, свяжитесь с нами:
 
 
-Telegram: <ul> <li> [@mishantique](https://t.me/mishantique) </li>
-<li>[@ponyotyan](https://t.me/ponyotyan) </li>
-<li>[@ShallerMau](https://t.me/ShallerMau) </li>
-</ul>
-
-
+Telegram: 
+- [@mishantique](https://t.me/mishantique) 
+- [@ponyotyan](https://t.me/ponyotyan)
+- [@ShallerMau](https://t.me/ShallerMau)
 
 Email: michvitko@mail.ru
